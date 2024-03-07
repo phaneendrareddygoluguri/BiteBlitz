@@ -2,7 +2,6 @@ import React, { useState } from 'react'
   import CommonSection from '../assets/components/UI/category/common-section/CommonSection';
 import Helmet from '../assets/components/Helmet/Helmet';
 import { Col, Container, Row } from 'reactstrap';
-import products from '../assets/fake-data/product';
 import ProductCard from '../assets/components/UI/category/product-card/ProductCard'
 import  '../styles/allfoods.css'
 import  '../styles/pagination.css'

@@ -10,12 +10,18 @@ import ReactPaginate from 'react-paginate';
 const AllFoods = () => {
   const [searcTerm,setSearchTerm]= useState('')
 const [pagenumber,setpageNumber] = useState(0)
-const searchProduct = products?.filter((item)=>{
-  if(searcTerm === '') return item;
-  if(item.title
-    .toLowerCase()
-    .includes(searcTerm.toLowerCase()))
-    return item;})
+// const searchProduct = products?.filter((item)=>{
+//   if(searcTerm === '') return item;
+//   if(item.title
+//     .toLowerCase()
+//     .includes(searcTerm.toLowerCase()))
+//     return item;})
+const searchProduct = (products, searchTerm) => {
+  if (!searchTerm) return products;
+  const regex = new RegExp(searchTerm.toLowerCase(), 'i'); // case-insensitive
+  return products.filter((item) => regex.test(item.title.toLowerCase()));
+};
+
 const productPerPage = 12;
 const visitedpage = pagenumber * productPerPage;
 const displayPage = searchProduct.slice(visitedpage, visitedpage+productPerPage);

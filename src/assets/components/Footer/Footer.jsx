@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Row, Col, ListGroup, ListGroupItem } from 'reactstrap'
-import logo from '../../images/res-logo.png'
+import logo from '../../images/biteblitz.png'
 import footer from '../../../styles/footer.css'
 import { Link } from 'react-router-dom'
 const Footer = () => {
@@ -11,9 +11,9 @@ const Footer = () => {
           <Row>
             <Col lg='3' md='4' sm='6'>
               <div className=" footer_logo text-start" >
-                <img src={logo} alt="logo" />
+                <img src={logo} alt="logo" style={{borderRadius:"25px",height:"50px",width:"50px"}} />
                 <h5>Bite Blitz</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad voluptatum accusantium ullam fugiat.</p>
+                <p>Food is more than just sustenance; it's a shared experience. <b>Bite Blitz</b> connects you with local restaurants and fellow foodies, creating lasting memories around the table</p>
               </div>
             </Col>
             <Col lg='3' md='4' sm='6'>
@@ -57,7 +57,7 @@ const Footer = () => {
           </Row>
           <Row className='mt-5'>
             <Col lg='6' md='6'>
-              <p className='copyright_text'>CopyRight -2022,website made by srinivas.All rights reserved</p>
+              <p className='copyright_text'>CopyRight -2022,website made by Phaneendra Reddy.All rights reserved</p>
             </Col>
             <Col lg='6' md='6'>
               <div className="social_links d-flex align-items-center gap-4 justify-content-end">

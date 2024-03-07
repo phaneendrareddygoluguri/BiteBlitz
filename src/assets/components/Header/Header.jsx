@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { Container } from 'reactstrap'
-import logo from '../../images/res-logo.png'
+import logo from '../../images/biteblitz.png'
 import { NavLink, Link } from 'react-router-dom'
 import '../../../styles/header.css'
 import { useDispatch, useSelector } from 'react-redux'
@@ -59,7 +59,7 @@ const toggleCart = ()=>{
                 <Container>
                     <div className="nav_wrapper d-flex align-items-center justify-content-between">
                         <div className="logo">
-                            <img src={logo} alt="logo" />
+                            <img src={logo} alt="logo"  style={{borderRadius:"25px",height:"50px",width:"50px"}}/>
                             <h5>Bite Blitz</h5>
                         </div>
                         {/* ========menu-items==== */}

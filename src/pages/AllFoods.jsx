@@ -11,7 +11,7 @@ const AllFoods = () => {
   const [searcTerm,setSearchTerm]= useState('')
 const [pagenumber,setpageNumber] = useState(0)
 const searchProduct = products?.filter((item)=>{
-  if(searcTerm == '') return item;
+  if(searcTerm === '') return item;
   if(item.title
     .toLowerCase()
     .includes(searcTerm.toLowerCase()))

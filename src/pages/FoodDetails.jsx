@@ -1,6 +1,4 @@
 import React from 'react'
-import products from '../assets/fake-data/product'
-import { useParams } from 'react-router-dom'
 import Helmet from '../assets/components/Helmet/Helmet'
 import CommonSection from '../assets/components/UI/category/common-section/CommonSection'
 import { Col, Row, Container } from 'reactstrap'

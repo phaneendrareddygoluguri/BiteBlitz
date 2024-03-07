@@ -1,7 +1,6 @@
 import React from 'react'
 import { Container, Row, Col, ListGroup, ListGroupItem } from 'reactstrap'
 import logo from '../../images/biteblitz.png'
-import footer from '../../../styles/footer.css'
 import { Link } from 'react-router-dom'
 const Footer = () => {
   return (

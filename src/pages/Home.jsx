@@ -174,7 +174,7 @@ const Home = () => {
               </Col>
               <Col lg='6' md='6'>
                 <div className="why_tasty-treat">
-                  <h2 className='tasty_treat-title mb-4'>why <span>Tasty Treat?</span></h2>
+                  <h2 className='tasty_treat-title mb-4'>why <span>Bite Blitz?</span></h2>
                   <p className='tasty_treat-desc'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, veritatis?</p>
                   <ListGroup className='mt-4'>
                     <ListGroupItem className='border-0 ps-0'>
